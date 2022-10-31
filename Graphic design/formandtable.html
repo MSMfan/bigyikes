@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HTML Form & Table Demo</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta charset="utf-8" />
+  </head>
+
+  <body>
+
+    <table>
+      <caption>List of students and emails</caption>
+      <thead>
+        <tr>
+          <th>Index</th>
+          <th>Names</th>
+          <th>Emails</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Kyra Baron</td>
+          <td>kyrabb@vcu.edu</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Ray Burnette</td>
+          <td>burnetter2@vcu.edu</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Sadie Dalton</td>
+          <td>daltonsm@vcu.edu</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>Sarah Eichler</td>
+          <td>eichlersk@vcu.edu</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>Ellie Farbman</td>
+          <td>farbmane@vcu.edu</td>
+        </tr>
+        <tr>
+          <td>6</td>
+          <td>Owen Franklin</td>
+          <td>franklinol@vcu.edu</td>
+        </tr>
+        <tr>
+          <td>7</td>
+          <td>Kyra Georg</td>
+          <td>georgkl@vcu.edu</td>
+        </tr>
+        <tr>
+          <td>8</td>
+          <td>Mackenzie Haskell</td>
+          <td>haskellmj@vcu.edu</td>
+        </tr>
+        <tr>
+          <td>9</td>
+          <td>Jason Johnson</td>
+          <td>johnsonjc10@vcu.edu</td>
+        </tr>
+        <tr>
+          <td>10</td>
+          <td>Becca Kim</td>
+          <td>kimb11@vcu.edu</td>
+        </tr>
+        <tr>
+          <td>11</td>
+          <td>Aamani Kuram</td>
+          <td>kurama@vcu.edu</td>
+        </tr>
+        <tr>
+          <td>12</td>
+          <td>Virginia Kutruff</td>
+          <td>kutruffvl@vcu.edu</td>
+        </tr>
+        <tr>
+          <td>13</td>
+          <td>Madison Lucas</td>
+          <td>lucasml@vcu.edu</td>
+        </tr>
+        <tr>
+          <td>14</td>
+          <td>Devin Ostulano Ostulano</td>
+          <td>ostulanod@vcu.edu</td>
+        </tr>
+        <tr>
+          <td>15</td>
+          <td>Anastasia Piontkivska</td>
+          <td>piontkivskaa@vcu.edu</td>
+        </tr>
+        <tr>
+          <td>16</td>
+          <td>August Roberson</td>
+          <td>robersona3@vcu.edu</td>
+        </tr>
+        <tr>
+          <td>17</td>
+          <td>Tala  Rowe</td>
+          <td>rowea5@vcu.edu</td>
+        </tr>
+        <tr>
+          <td>18</td>
+          <td>Carter Stevenson</td>
+          <td>stevensonct@vcu.edu</td>
+        </tr>
+        <tr>
+          <td>19</td>
+          <td>Katia Vivanco</td>
+          <td>vivancokp@vcu.edu</td>
+        </tr>
+        <tr>
+          <td>20</td>
+          <td>Andrew Xhixho</td>
+          <td>xhixhoa2@vcu.edu</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <form>
+      <p>
+        <label for="name">Name</label>
+        <input id="name" name="text" type="text" placeholder="enter your name here" />
+      </p>
+
+      <p>
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" />
+      </p>
+
+      <p>
+        <label for="date">Birthday</label>
+        <input id="date" name="date" type="date" />
+      </p>
+
+      <p>
+        <label for="range">How are you doing today?</label>
+        Very Good<input id="range" name="range" type="range" />Very Bad
+      </p>
+
+      <p>
+        Are you a student?
+        <label for="yes">Yes</label>
+        <input id="yes" name="radio" type="radio" value="yes" />
+        <label for="no">No</label>
+        <input id="no" name="radio" type="radio" value="no" />
+      </p>
+
+      <p>
+        What programming language do you want to learn?
+        <label for="html">HTML</label>
+        <input id="html" name="checkbox" type="checkbox" value="yes" />
+        <label for="css">CSS</label>
+        <input id="css" name="checkbox" type="checkbox" value="no" />
+        <label for="js">JavaScript</label>
+        <input id="js" name="checkbox" type="checkbox" value="no" />
+      </p>
+
+      <p>
+        <label for="year">What year are you in?</label>
+        <select id="year" name="year">
+          <option value="1year">1 year</option>
+          <option value="2year">2 year</option>
+          <option value="3year">3 year</option>
+          <option value="4year">4 year</option>
+        </select>
+      </p>
+
+      <p>
+        Leave a message here<br>
+        <textarea id="textarea" name="textarea" col="5" rows="6"></textarea>
+      </p>
+
+      <p>
+        <button type="submit">Submit</button>
+      </p>
+    </form>
+
+  </body>
+</html>
