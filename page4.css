@@ -1,0 +1,73 @@
+body {
+  background-color: forestgreen
+}
+
+p {
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: center;
+  margin: 0;
+}
+
+
+p {
+
+margin: 0;
+padding: 30px;
+max-width: 80px;
+display: inline-block;
+border-width: 5px;
+border-style: dashed;
+border-radius: 40px;
+position: relative;
+}
+
+
+
+.b25-r20 {
+  bottom: 25px;
+  right: 20px;
+}
+
+.b30-r20 {
+  bottom: 30px;
+  right:20px;
+}
+
+.skyblue {
+  color: skyblue;
+}
+.t45-l25 {
+  top:45px;
+  left:25px;
+}
+.HotPink {
+  color: HotPink;
+}
+.r50-l40 {
+  right: 50px;
+  left: 40px;
+}
+.b10-r10{
+  bottom: 10px;
+  right: 10px;
+}
+.t150-l60 {
+  top: 150px;
+  left: 60px;
+}
+.t45-l10 {
+  top:45px;
+  left: 10px;
+}
+.gold {
+  color: gold;
+}
+.t30-r10 {
+  top:30px;
+  right:10px;
+}
+.l50-t45 {
+  left:50px;
+  top:45px;
+}
